@@ -1,5 +1,5 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 
 function CreateInstance(
 	headers?: { [key: string]: any },
